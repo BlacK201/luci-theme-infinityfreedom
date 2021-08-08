@@ -235,4 +235,5 @@
                 break;
         }
     }
+    $(".main-left").eq(0).append("<img src='/luci-static/infinityfreedom/images/main_ganyu.png' class='added_ganyu'></img>")
 })(jQuery);

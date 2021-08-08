@@ -97,6 +97,23 @@ div#maincontent div.container table.table tbody#tableBody{
 	background-color:rgba(7,34,62,.4);
 }
 
+.added_ganyu {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 300px;
+    z-index: -1;
+}
+.added_ganyu:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow:0 0 50px 30px #ffffff inset;
+}
+
 .table { display: table; }
 .tr { display: table-row; }
 .thead { display: table-header-group; }
