@@ -99,10 +99,14 @@ div#maincontent div.container table.table tbody#tableBody{
 
 .added_ganyu {
     position: fixed;
-    left: 0;
+    left: -30px;
     bottom: 50px;
     width: 300px;
     z-index: -1;
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    pointer-events: none;
 }
 .added_ganyu:after {
     position: absolute;
